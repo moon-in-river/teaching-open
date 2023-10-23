@@ -12,6 +12,7 @@ import { ACCESS_TOKEN } from '@/store/mutation-types'
  * @type {*|string}
  */
 let apiBaseUrl = window._CONFIG['domianURL'] || '/api'
+// apiBaseUrl = 'http://172.23.27.47'
 console.log('apiBaseUrl= ', apiBaseUrl)
 // 创建 axios 实例
 const service = axios.create({
